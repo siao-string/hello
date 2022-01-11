@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/hello.dir/hellowoeld.cpp.o -o hello 
