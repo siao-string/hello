@@ -129,29 +129,29 @@ hello/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
-hellowoeld.o: hellowoeld.cpp.o
-.PHONY : hellowoeld.o
+helloworld.o: helloworld.cpp.o
+.PHONY : helloworld.o
 
 # target to build an object file
-hellowoeld.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hellowoeld.cpp.o
-.PHONY : hellowoeld.cpp.o
+helloworld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/helloworld.cpp.o
+.PHONY : helloworld.cpp.o
 
-hellowoeld.i: hellowoeld.cpp.i
-.PHONY : hellowoeld.i
+helloworld.i: helloworld.cpp.i
+.PHONY : helloworld.i
 
 # target to preprocess a source file
-hellowoeld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hellowoeld.cpp.i
-.PHONY : hellowoeld.cpp.i
+helloworld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/helloworld.cpp.i
+.PHONY : helloworld.cpp.i
 
-hellowoeld.s: hellowoeld.cpp.s
-.PHONY : hellowoeld.s
+helloworld.s: helloworld.cpp.s
+.PHONY : helloworld.s
 
 # target to generate assembly for a file
-hellowoeld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hellowoeld.cpp.s
-.PHONY : hellowoeld.cpp.s
+helloworld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/helloworld.cpp.s
+.PHONY : helloworld.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hello"
-	@echo "... hellowoeld.o"
-	@echo "... hellowoeld.i"
-	@echo "... hellowoeld.s"
+	@echo "... helloworld.o"
+	@echo "... helloworld.i"
+	@echo "... helloworld.s"
 .PHONY : help
 
 

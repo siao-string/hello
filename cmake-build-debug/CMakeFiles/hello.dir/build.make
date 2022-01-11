@@ -69,28 +69,28 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/hellowoeld.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/hellowoeld.cpp.o: ../hellowoeld.cpp
-CMakeFiles/hello.dir/hellowoeld.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/siao/tmp/tmp.lh9PJWgjMo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/hellowoeld.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hellowoeld.cpp.o -MF CMakeFiles/hello.dir/hellowoeld.cpp.o.d -o CMakeFiles/hello.dir/hellowoeld.cpp.o -c /home/siao/tmp/tmp.lh9PJWgjMo/hellowoeld.cpp
+CMakeFiles/hello.dir/helloworld.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/helloworld.cpp.o: ../helloworld.cpp
+CMakeFiles/hello.dir/helloworld.cpp.o: CMakeFiles/hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/siao/tmp/tmp.lh9PJWgjMo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/helloworld.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/helloworld.cpp.o -MF CMakeFiles/hello.dir/helloworld.cpp.o.d -o CMakeFiles/hello.dir/helloworld.cpp.o -c /home/siao/tmp/tmp.lh9PJWgjMo/helloworld.cpp
 
-CMakeFiles/hello.dir/hellowoeld.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/hellowoeld.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siao/tmp/tmp.lh9PJWgjMo/hellowoeld.cpp > CMakeFiles/hello.dir/hellowoeld.cpp.i
+CMakeFiles/hello.dir/helloworld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/helloworld.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siao/tmp/tmp.lh9PJWgjMo/helloworld.cpp > CMakeFiles/hello.dir/helloworld.cpp.i
 
-CMakeFiles/hello.dir/hellowoeld.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/hellowoeld.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siao/tmp/tmp.lh9PJWgjMo/hellowoeld.cpp -o CMakeFiles/hello.dir/hellowoeld.cpp.s
+CMakeFiles/hello.dir/helloworld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/helloworld.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siao/tmp/tmp.lh9PJWgjMo/helloworld.cpp -o CMakeFiles/hello.dir/helloworld.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/hellowoeld.cpp.o"
+"CMakeFiles/hello.dir/helloworld.cpp.o"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello: CMakeFiles/hello.dir/hellowoeld.cpp.o
+hello: CMakeFiles/hello.dir/helloworld.cpp.o
 hello: CMakeFiles/hello.dir/build.make
 hello: CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/siao/tmp/tmp.lh9PJWgjMo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"

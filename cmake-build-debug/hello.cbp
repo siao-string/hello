@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/siao/tmp/tmp.lh9PJWgjMo/hellowoeld.cpp">
+		<Unit filename="/home/siao/tmp/tmp.lh9PJWgjMo/helloworld.cpp">
 			<Option target="hello"/>
 		</Unit>
-		<Unit filename="/home/siao/tmp/tmp.lh9PJWgjMo/hellowoeld.h">
+		<Unit filename="/home/siao/tmp/tmp.lh9PJWgjMo/helloworld.h">
 			<Option target="hello"/>
 		</Unit>
 		<Unit filename="/home/siao/tmp/tmp.lh9PJWgjMo/CMakeLists.txt">
